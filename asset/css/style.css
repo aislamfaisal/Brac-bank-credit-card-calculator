@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+#calculator{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.logo{
+    padding-top: 5%;
+}
+.form{
+    background: #0958a7;
+    max-width: 100%;
+    margin: 5% auto 30px;
+    padding: 45px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form h3{
+    padding-bottom: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 0;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form input[type=number]::-webkit-inner-spin-button,
+.form  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.calculator-form .result{
+    margin-top: 20px;
+    outline: 0;
+    font-weight: bold;
+    background: #e7b210;
+    width: 100%;
+    border: 0;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+}
+.calculator-form .result span{
+    color: #fff;
+}
+#calculator .copyright .text{
+    color: #e7af05;
+}
